@@ -1,9 +1,6 @@
 ﻿using CleanArch.Application.Interfaces;
 using CleanArch.Application.ViewModels;
 using CleanArch.Domain.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace CleanArch.Application.Services
 {
@@ -11,7 +8,7 @@ namespace CleanArch.Application.Services
     {
         private ICourseRepository _courseRepository;
 
-        public CourseService(ICourseRepository courseRepository) 
+        public CourseService(ICourseRepository courseRepository)
         {
             _courseRepository = courseRepository;
         }
